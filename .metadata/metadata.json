@@ -1,0 +1,12 @@
+{
+    "name" : "Party Pack Plus",
+    "id" : "",
+    "version" : "1.1.*",
+    "short_description" : "Adds party names for more countries!",
+    "tags" : [],
+    "relationships" : [],
+    "game_custom_data" : {
+        "multiplayer_synchronized" : true
+    }
+    
+}
