@@ -27,16 +27,22 @@ party_mexican_liberal_party:0 "Partido Liberal Mexicano"
 
 #religious_party
 party_ppp_christian_heritage_party:0 "Protestant Protective Association"
+party_ppp_partido_catolico:0 "Partido Católico Nacional"
+party_ppp_parti_syndical_catholique:0 "Parti Syndical Catholique"
 
 #social_democrats_party
-
+party_laborist_party:0 "Partido Laborista"
+party_ppp_que_labor_party:0 "Parti Travailliste"
 
 #communist_party
 party_workingmens_party:0 "Communist Party of America"
 party_ppp_can_communist:0 "Communist Party of Canada"
+party_socialist_workers_party:0 "Partido Socialista Obrero"
 
 #agrarian_party
 party_patrons_of_industry:0 "Non-Partisan League"
+party_ppp_partido_agrario:0 "Partido Agrario"
 
 #anarchist_party
 party_ppp_iww:0 "Industrial Workers of the World"
+party_ppp_mex_anarchy:0 "Federación Anarquista Mexicana"

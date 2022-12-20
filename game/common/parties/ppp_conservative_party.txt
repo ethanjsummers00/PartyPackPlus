@@ -6,173 +6,19 @@ conservative_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
-				desc = party_christian_social_party
+				desc = party_ppp_partido_conservador
 				trigger = {
-					exists = c:AUS
-					THIS = c:AUS
-				}
-			}
-			triggered_desc = {
-				desc = party_constitutional_party
-				trigger = {
-					exists = c:PEU
-					THIS = c:PEU
-				}
-			}
-			triggered_desc = {
-				desc = party_national_autonomist
-				trigger = {
-					exists = c:ARG
-					THIS = c:ARG
-				}
-			}
-			triggered_desc = {
-				desc = party_tories
-				trigger = {
-					exists = c:GBR
-					THIS = c:GBR
-				}
-			}
-			triggered_desc = {
-				desc = party_us_democrats
-				trigger = {
-					exists = c:USA
-					THIS = c:USA
-				}
-			}
-			triggered_desc = {
-				desc = party_moderate_party
-				trigger = {
-					exists = c:SPA
-					THIS = c:SPA
-				}
-			}
-			triggered_desc = {
-				desc = party_regenerator_party
-				trigger = {
-					exists = c:POR
-					THIS = c:POR
-				}
-			}
-			triggered_desc = {
-				desc = party_lantmanna_party
-				trigger = {
-					exists = c:SWE
-					THIS = c:SWE
-				}
-			}
-			triggered_desc = {
-				desc = party_finnish_party
-				trigger = {
-					exists = c:FIN
-					THIS = c:FIN
-				}
-			}
-			triggered_desc = {
-				desc = party_catholic_party
-				trigger = {
-					exists = c:BEL
-					THIS = c:BEL
-				}
-			}
-			triggered_desc = {
-				desc = party_party_of_the_right
-				trigger = {
-					exists = c:LUX
-					THIS = c:LUX
-				}
-			}
-			triggered_desc = {
-				desc = party_peoples_party
-				trigger = {
-					exists = c:MON
-					THIS = c:MON
-				}
-			}
-			triggered_desc = {
-				desc = party_bonapartist_party
-				trigger = {
-					exists = c:FRA
-					THIS = c:FRA
-				}
-			}
-			triggered_desc = {
-				desc = party_octobrist_party
-				trigger = {
-					exists = c:RUS
-					THIS = c:RUS
-					has_law = law_type:law_monarchy
-				}
-			}
-			triggered_desc = {
-				desc = party_constitutional_association
-				trigger = {
-					exists = c:CHI
-					THIS = c:CHI
-					has_law = law_type:law_monarchy
-				}
-			}
-			triggered_desc = {
-				desc = party_imperial_rule_party
-				trigger = {
-					exists = c:JAP
-					THIS = c:JAP
-					has_law = law_type:law_monarchy
-				}
-			}
-			triggered_desc = {
-				desc = party_moderate_socialists_party
-				trigger = {
-					exists = c:PER
-					THIS = c:PER
-				}
-			}
-			triggered_desc = {
-				desc = party_russian_party
-				trigger = {
-					exists = c:GRE
-					THIS = c:GRE
-				}
-			}
-			triggered_desc = {
-				desc = party_blanco_party
-				trigger = {
-					exists = c:URU
-					THIS = c:URU
-				}
-			}
-			triggered_desc = {
-				desc = party_colorado_party
-				trigger = {
-					exists = c:PRG
-					THIS = c:PRG
-				}
-			}
-			triggered_desc = {
-				desc = party_the_right
-				trigger = {
-					OR = {
-						country_has_primary_culture = cu:north_italian
-						country_has_primary_culture = cu:south_italian
+                    OR = {
+                        country_has_primary_culture = cu:mexican
+						country_has_primary_culture = cu:central_american
+						country_has_primary_culture = cu:north_andean
 					}
 				}
 			}
-			triggered_desc = {
-				desc = party_hoyre
-				trigger = {
-					country_has_primary_culture = cu:norwegian
-				}
-			}
-			triggered_desc = {
+            triggered_desc = {
 				desc = party_democratic_party
 				trigger = {
 					country_has_primary_culture = cu:dixie
-				}
-			}
-			triggered_desc = {
-				desc = party_hojre
-				trigger = {
-					country_has_primary_culture = cu:danish
 				}
 			}
 			triggered_desc = {

@@ -7,69 +7,6 @@ religious_party = {
 		first_valid = {
 
 			triggered_desc = {
-				desc = party_catholic_peoples_party
-				trigger = {
-					exists = c:AUS
-					THIS = c:AUS
-				}
-			}
-			triggered_desc = {
-				desc = party_portuguese_catholic_centre
-				trigger = {
-					exists = c:POR
-					THIS = c:POR
-				}
-			}
-			triggered_desc = {
-				desc = party_catholic_right
-				trigger = {
-					exists = c:SWI
-					THIS = c:SWI
-				}
-			}
-			triggered_desc = {
-				desc = party_anti_revolutionary_party
-				trigger = {
-					exists = c:NET
-					THIS = c:NET
-				}
-			}
-			triggered_desc = {
-				desc = party_learned_council
-				trigger = {
-					exists = c:PER
-					THIS = c:PER
-				}
-			}
-			triggered_desc = {
-				desc = party_traditionalist_communion
-				trigger = {
-					exists = c:SPA
-					THIS = c:SPA
-				}
-			}
-			triggered_desc = {
-				desc = party_christian_peoples_party
-				trigger = {
-					exists = c:BEL
-					THIS = c:BEL
-				}
-			}
-			triggered_desc = {
-				desc = party_clerical_party
-				trigger = {
-					exists = c:FRA
-					THIS = c:FRA
-				}
-			}
-			triggered_desc = {
-				desc = party_union_of_the_russian_people
-				trigger = {
-					exists = c:RUS
-					THIS = c:RUS
-				}
-			}
-			triggered_desc = {
 				desc = party_know_nothing_party
 				trigger = {
 					OR = {
@@ -78,31 +15,23 @@ religious_party = {
 					}
 				}
 			}
-			triggered_desc = {
-				desc = party_zentrum
+            triggered_desc = {
+				desc = party_ppp_christian_heritage_party
 				trigger = {
-					AND = {
-						OR = {
-							country_has_primary_culture = cu:north_german
-							country_has_primary_culture = cu:south_german
-						}
-						country_has_state_religion = rel:catholic
-					}
+					country_has_primary_culture = cu:anglo_canadian
 				}
 			}
-			triggered_desc = {
-				desc = party_conservative_catholics
+            triggered_desc = {
+				desc = party_ppp_parti_syndical_catholique
 				trigger = {
-					OR = {
-						country_has_primary_culture = cu:north_italian
-						country_has_primary_culture = cu:south_italian
-					}
+					country_has_primary_culture = cu:franco_canadian
 				}
 			}
-			triggered_desc = {
-				desc = party_moderate_venstre
+            triggered_desc = {
+				desc = party_ppp_partido_catolico
 				trigger = {
-					country_has_primary_culture = cu:norwegian
+					exists = c:MEX
+					THIS = c:MEX
 				}
 			}
 			triggered_desc = {
