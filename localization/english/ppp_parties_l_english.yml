@@ -1,0 +1,55 @@
+﻿l_english:
+ #fascist_party
+ party_ppp_silver_legion:0 "Silver Legion of America"
+ party_ppp_popular_force:0 "Partido Fuerza Popular"
+
+ #conservative_party
+ party_ppp_can_conservative_party:0 "Conservative Party of Canada"
+ party_ppp_partido_conservador:0 "Partido Conservador"
+
+ #free_trade_party
+ party_ppp_unionist_party:0 "Unionist Party"
+ party_ppp_liberal_conservative_party:0 "Liberal-Conservative Party"
+ party_ppp_progresista:0 "Partido Constitucional Progresista"
+
+ #liberal_party
+ party_ppp_can_liberal_party:0 "Liberal Party of Canada"
+ party_ppp_partido_liberal:0 "Partido Liberal"
+
+ #military_party
+ party_ppp_usaf_party:0 "American Legion"
+ party_ppp_canadian_army:0 "Canadian Armed Forces"
+ party_ppp_partido_patriota:0 "Partido Patriota"
+ party_ppp_36_party:0 "Party of '36"
+
+ #radical_party
+ party_ppp_can_radical:0 "Progressive Party of Canada"
+ party_ppp_mexican_liberal_party:0 "Partido Liberal Mexicano"
+ party_ppp_radical_reform_party:0 "Radical Reform Party"
+ party_ppp_partido_ortodoxo:0 "Partido Ortodoxo"
+
+ #religious_party
+ party_ppp_christian_heritage_party:0 "Protestant Protective Association"
+ party_ppp_partido_catolico:0 "Partido Católico Nacional"
+ party_ppp_parti_syndical_catholique:0 "Parti Syndical Catholique"
+
+ #social_democrats_party
+ party_ppp_laborist_party:0 "Partido Laborista"
+ party_ppp_que_labor_party:0 "Parti Travailliste"
+ party_ppp_tex_farm_labor:0 "Farmer-Labor Party of Texas"
+ party_ppp_partido_popular:0 "Partido Popular"
+
+ #communist_party
+ party_ppp_workingmens_party:0 "Communist Party of America"
+ party_ppp_can_communist:0 "Communist Party of Canada"
+ party_ppp_socialist_workers_party:0 "Partido Socialista Obrero"
+ party_ppp_partido_socialista_popular:0 "Partido Socialista Popular"
+
+ #agrarian_party
+ party_non_partisan:0 "Non-Partisan League"
+ party_ppp_partido_agrario:0 "Partido Agrario"
+ party_ppp_homesteader:0 "Homesteader Party"
+
+ #anarchist_party
+ party_ppp_iww:0 "Industrial Workers of the World"
+ party_ppp_mex_anarchy:0 "Federación Anarquista Mexicana"

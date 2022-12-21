@@ -4,22 +4,112 @@ military_party = {
 	color = { 132 100 53 }
 	name = {
 		first_valid = {
-
             triggered_desc = {
+				desc = party_ppp_36_party
+				trigger = {
+					exists = c:TEX
+					THIS = c:TEX
+				}
+			}
+			triggered_desc = {
 				desc = party_ppp_usaf_party
 				trigger = {
 					exists = c:USA
 					THIS = c:USA
 				}
 			}
-            triggered_desc = {
+			triggered_desc = {
 				desc = party_ppp_canadian_army
 				trigger = {
 					exists = c:CAN
 					THIS = c:CAN
 				}
 			}
-			
+			triggered_desc = {
+				desc = party_ppp_partido_patriota
+				trigger = {
+                   			OR = {
+                                    country_has_primary_culture = cu:caribeno
+                        			country_has_primary_culture = cu:mexican
+									country_has_primary_culture = cu:central_american
+									country_has_primary_culture = cu:north_andean
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_true_peoples_party
+				trigger = {
+					exists = c:MON
+					THIS = c:MON
+				}
+			}
+			triggered_desc = {
+				desc = party_national_party
+				trigger = {
+					exists = c:SER
+					THIS = c:SER
+				}
+			}
+			triggered_desc = {
+				desc = party_legitimist_party
+				trigger = {
+					exists = c:FRA
+					THIS = c:FRA
+				}
+			}
+			triggered_desc = {
+				desc = party_imperial_clan_party
+				trigger = {
+					exists = c:CHI
+					THIS = c:CHI
+					has_law = law_type:law_monarchy
+				}
+			}
+			triggered_desc = {
+				desc = party_russian_assembly
+				trigger = {
+					exists = c:RUS
+					THIS = c:RUS
+					has_law = law_type:law_monarchy
+				}
+			}
+			triggered_desc = {
+				desc = party_russian_all_military_union
+				trigger = {
+					exists = c:RUS
+					THIS = c:RUS
+					NOT = { has_law = law_type:law_monarchy }
+				}
+			}
+			triggered_desc = {
+				desc = party_imperial_way_party
+				trigger = {
+					exists = c:JAP
+					THIS = c:JAP
+					has_law = law_type:law_monarchy
+				}
+			}
+			triggered_desc = {
+				desc = party_patriotic_union
+				trigger = {
+					country_has_primary_culture = cu:spanish
+				}
+			}
+			triggered_desc = {
+				desc = party_regressivist_party
+				trigger = {
+					country_has_primary_culture = cu:brazilian
+				}
+			}
+			triggered_desc = {
+				desc = party_national_peoples_party
+				trigger = {
+					OR = {
+						country_has_primary_culture = cu:north_german
+						country_has_primary_culture = cu:south_german
+					}
+				}
+			}
 			triggered_desc = {
 				desc = party_military
 				trigger = {
